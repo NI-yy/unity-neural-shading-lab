@@ -1,0 +1,37 @@
+run,marker,requested_frames,gathered_frames,valid_marker_frames,missing_marker_frames,status,median_gpu_ms,p95_gpu_ms
+1,PlayerLoop,1000,1000,1000,0,complete,1.631500,3.898800
+1,ExecuteRenderGraph,1000,1000,1000,0,complete,1.553000,3.783150
+1,Draw Main Light Shadowmap,1000,1000,1000,0,complete,0.326000,0.330000
+1,DrawDepthNormalPrepass,1000,1000,1000,0,complete,0.326000,2.075050
+1,DrawOpaqueObjects,1000,1000,1000,0,complete,0.580000,2.536050
+1,DrawTransparentObjects,1000,1000,1000,0,complete,0.043000,0.046000
+1,SSAO,1000,1000,1000,0,complete,0.051000,0.052000
+1,Bloom,1000,1000,1000,0,complete,0.057000,0.061000
+1,RG_UberPost,1000,1000,1000,0,complete,0.030000,0.031000
+1,Blit Color Full Screen,1000,1000,1000,0,complete,0.062000,0.062000
+1,CopyDepth,1000,1000,1000,0,complete,0.016000,0.017000
+1,Blit Color LUT,1000,1000,1000,0,complete,0.003000,0.004000
+2,PlayerLoop,1000,1000,1000,0,complete,1.637000,3.984450
+2,ExecuteRenderGraph,1000,1000,1000,0,complete,1.554500,3.887400
+2,Draw Main Light Shadowmap,1000,1000,1000,0,complete,0.326000,0.329000
+2,DrawDepthNormalPrepass,1000,1000,1000,0,complete,0.326000,2.084100
+2,DrawOpaqueObjects,1000,1000,1000,0,complete,0.581000,2.544200
+2,DrawTransparentObjects,1000,1000,1000,0,complete,0.043000,0.046000
+2,SSAO,1000,1000,1000,0,complete,0.051000,0.052000
+2,Bloom,1000,1000,1000,0,complete,0.057000,0.061000
+2,RG_UberPost,1000,1000,1000,0,complete,0.030000,0.031000
+2,Blit Color Full Screen,1000,1000,1000,0,complete,0.062000,0.062000
+2,CopyDepth,1000,1000,1000,0,complete,0.016000,0.017000
+2,Blit Color LUT,1000,1000,1000,0,complete,0.003000,0.004000
+3,PlayerLoop,1000,1000,1000,0,complete,1.632000,3.948600
+3,ExecuteRenderGraph,1000,1000,1000,0,complete,1.554000,3.816450
+3,Draw Main Light Shadowmap,1000,1000,1000,0,complete,0.326000,0.330000
+3,DrawDepthNormalPrepass,1000,1000,1000,0,complete,0.326000,2.086100
+3,DrawOpaqueObjects,1000,1000,1000,0,complete,0.580000,2.543150
+3,DrawTransparentObjects,1000,1000,1000,0,complete,0.043000,0.046000
+3,SSAO,1000,1000,1000,0,complete,0.051000,0.052000
+3,Bloom,1000,1000,1000,0,complete,0.057000,0.061000
+3,RG_UberPost,1000,1000,1000,0,complete,0.030000,0.030000
+3,Blit Color Full Screen,1000,1000,1000,0,complete,0.062000,0.062000
+3,CopyDepth,1000,1000,1000,0,complete,0.016000,0.017000
+3,Blit Color LUT,1000,1000,1000,0,complete,0.003000,0.004000
