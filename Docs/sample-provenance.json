@@ -1,0 +1,12 @@
+{
+  "assetStoreId": 298128,
+  "version": "1.1.0",
+  "sha256": "60347d0576dbb7d36ee568a98b503d09254075b76aa873997f0ae1ab11ab4c34",
+  "source": "https://assetstore.unity.com/packages/templates/packs/fantasy-kingdom-3d-sample-project-298128",
+  "unity": "6000.3.12f1",
+  "urp": "17.3.0",
+  "rendering": "Desktop preset, render scale 1, STP disabled; DX12 default, DX11 optional",
+  "scene": "Assets/Scenes/Demo.unity",
+  "camera": "Original Physical Camera, stationary",
+  "sampleAssetsInGit": false
+}

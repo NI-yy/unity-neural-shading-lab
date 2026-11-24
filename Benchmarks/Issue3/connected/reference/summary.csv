@@ -1,0 +1,13 @@
+condition,run,metric,requested,valid,missing,median_ms,p95_ms,over_3_ms,ambiguous_presents,both_over_3_ms
+reference,1,profiler_playerloop_ms,1000,1000,0,1.7160000000000002,4.408599999999999,332,293,197
+reference,1,profiler_shadow_ms,1000,1000,0,0.333,0.337,0,293,197
+reference,1,pm_gpu_busy_ms,1000,707,293,2.6749,4.572479999999997,302,293,197
+reference,1,pm_gpu_time_ms,1000,707,293,5.7259,8.365159999999998,684,293,197
+reference,2,profiler_playerloop_ms,1000,1000,0,1.69049997,4.04325,313,9,307
+reference,2,profiler_shadow_ms,1000,1000,0,0.332,0.337,0,9,307
+reference,2,pm_gpu_busy_ms,1000,991,9,2.7465,4.492900000000001,461,9,307
+reference,2,pm_gpu_time_ms,1000,991,9,5.3563,7.8353,941,9,307
+reference,3,profiler_playerloop_ms,1000,1000,0,1.6955,4.03905,306,9,300
+reference,3,profiler_shadow_ms,1000,1000,0,0.332,0.336,0,9,300
+reference,3,pm_gpu_busy_ms,1000,991,9,2.7244,4.48595,451,9,300
+reference,3,pm_gpu_time_ms,1000,991,9,5.2187,7.78045,927,9,300

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2a4b17f8309ff478e70bd2d6c85b05, type: 3}
+  m_Name: NeuralLabBaseline
+  m_EditorClassIdentifier: Assembly-CSharp::NeuralShadingLab.BaselineConfig
+  scenePath: Assets/Scenes/Demo.unity
+  experiment: fantasy-kingdom-desktop-native-reference
+  smokeTest: 0
+  warmupFrames: 300
+  sampleCount: 1000
+  simulationRate: 60
+  width: 1920
+  height: 1080
+  randomSeed: 12345
+  qualityLevel: 4
+  pipelineOverride: {fileID: 11400000, guid: 2b36b03def2e0744ead6e44544caea48, type: 2}
+  cameraPoses:
+  - position: {x: 143.96927, y: 68.40403, z: 120.80457}
+    rotation: {x: -0.07338688, y: 0.89253896, z: -0.15737869, w: -0.41619772}
+    fieldOfView: 18.18279
+  disableComponentTypes:
+  - Unity.FantasyKingdom.RTSCameraController
+  - Unity.FantasyKingdom.QualitySettingsController
+  - Unity.FantasyKingdom.StatsCanvasController
+  - Unity.FantasyKingdom.FogController
+  - Unity.FantasyKingdom.InputProvider
+  - Unity.Cinemachine.CinemachineBrain

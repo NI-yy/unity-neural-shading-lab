@@ -1,0 +1,3 @@
+# Editor接続4096の未成立試行
+
+2026-11-07。EditorのGPU Usageを有効化し、PresentMonを同時実行したが、Profilerの転送が止まり、1000フレーム×3回のUnity生ログを得られなかった。再起動後の試行では残存ETWセッションと競合し、PresentMonが記録を開始できなかった。さらに再試行したが、Unityの反復1回目が完了しなかった。有効な3回として集計しない。試行ログと途中のPresentMon CSVはGit対象外の `LocalData/Issue3Connected/failed-shadow4096/`、Profiler生ログは `LocalData/Issue3Connected/shadow4096/` に保持した。4096の採否にはPlayer側Profiler記録とPresentMonの成立した3回を使う。

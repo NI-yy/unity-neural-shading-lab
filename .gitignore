@@ -1,0 +1,38 @@
+# Unity generated files (root project or UnityProject/)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+UnityProject/[Ll]ibrary/
+UnityProject/[Tt]emp/
+UnityProject/[Oo]bj/
+UnityProject/[Ll]ogs/
+UnityProject/[Uu]ser[Ss]ettings/
+UnityProject/[Bb]uild/
+UnityProject/[Bb]uilds/
+*.csproj
+*.sln
+*.slnx
+.vs/
+.idea/
+
+# Local external samples, training data and large generated outputs
+ExternalSamples/
+LocalData/
+Training/.venv/
+Training/__pycache__/
+Training/checkpoints/
+Benchmarks/Captures/
+Benchmarks/Raw/
+*.unitypackage
+
+# Imported Unity sample assets are acquired separately from Asset Store.
+/UnityProject/Assets/*
+!/UnityProject/Assets/NeuralShadingLab/
+!/UnityProject/Assets/NeuralShadingLab.meta
+/UnityProject/Assets/NeuralShadingLab/LocalSample/
+/UnityProject/Assets/NeuralShadingLab/LocalSample.meta
+/UnityProject/Assets/NeuralShadingLab/Resources/NeuralLabBuildInfo.txt*
