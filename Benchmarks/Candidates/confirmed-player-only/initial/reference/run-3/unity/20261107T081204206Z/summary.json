@@ -1,0 +1,68 @@
+{
+    "runId": "20261107T081204206Z",
+    "status": "incomplete",
+    "scene": "Assets/Scenes/Demo.unity",
+    "experiment": "fantasy-kingdom-desktop-native-reference",
+    "unityVersion": "6000.3.12f1",
+    "os": "Windows 11  (10.0.26200)",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "graphicsDeviceVersion": "Direct3D 12 [level 12.2]",
+    "graphicsApi": "Direct3D12",
+    "quality": "Desktop",
+    "pipeline": "BaselineDesktop",
+    "colorSpace": "Linear",
+    "buildInfo": "unity=6000.3.12f1\npackage_lock_sha256=27c9f8df01c1f7f7e58ed1ec6f62c6a294e9b0ac234aad6183bac072e9ac02c0\nproject_settings_sha256=fca85e581a82b9d84ba7b829ba2676327074dc6514009323b0ce3d268e2ff61f\nquality_settings_sha256=b986b0678e76244edabbc16d3f93ad7f389aa9cecf3382dbcc2e0e296bb366c8\ngraphics_settings_sha256=8dec677cdc0386397c9ce4d63a3f39348c142de7984455e6d6c7e1789b60d24b\nscripting_backend=Mono2x\nscene_dependency_hash=f9466695e038ea309e89f518a7577588\npipeline_dependency_hash=89d118024ad1b7b67baa1c4e88e53ad7\nbuilt_utc=2026-11-07T08:07:43.7236418Z",
+    "timingSource": "FrameTimingManager (milliseconds); instrumentation enabled for every variant; total frame only",
+    "primaryGpuTimingSource": "FrameTimingManager",
+    "smokeTest": false,
+    "developmentBuild": true,
+    "frameTimingEnabled": true,
+    "width": 1920,
+    "height": 1080,
+    "warmupFrames": 300,
+    "requestedSamples": 1000,
+    "collectedSamples": 1000,
+    "validGpuSamples": 981,
+    "simulationRate": 60,
+    "seed": 12345,
+    "vSyncCount": 0,
+    "msaa": 0,
+    "qualityLevel": 1,
+    "timingDrainFrames": 8,
+    "gpuRecorderSamples": 1000,
+    "validGpuRecorderSamples": 981,
+    "gpuRecorderAvailable": true,
+    "gpuRecorderMedianMs": 1.59232,
+    "gpuRecorderP95Ms": 1.885184,
+    "renderScale": 1.0,
+    "gpuMedianMs": 1.59232,
+    "gpuP95Ms": 1.885184,
+    "cpuMedianMs": 3.1032,
+    "cpuP95Ms": 4.15572,
+    "configuration": {
+        "cameraPoses": [
+            {
+                "position": {
+                    "x": 143.96926879882813,
+                    "y": 68.4040298461914,
+                    "z": 120.80457305908203
+                },
+                "rotation": {
+                    "x": -0.07338687777519226,
+                    "y": 0.8925389647483826,
+                    "z": -0.157378688454628,
+                    "w": -0.4161977171897888
+                },
+                "fieldOfView": 18.182790756225587
+            }
+        ],
+        "disabledComponentTypes": [
+            "Unity.FantasyKingdom.RTSCameraController",
+            "Unity.FantasyKingdom.QualitySettingsController",
+            "Unity.FantasyKingdom.StatsCanvasController",
+            "Unity.FantasyKingdom.FogController",
+            "Unity.FantasyKingdom.InputProvider",
+            "Unity.Cinemachine.CinemachineBrain"
+        ]
+    }
+}

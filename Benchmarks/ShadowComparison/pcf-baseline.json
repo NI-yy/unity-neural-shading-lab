@@ -1,0 +1,103 @@
+{
+  "phase": "pcf-baseline-20261107",
+  "filter": {
+    "algorithm": "URP PCF",
+    "quality": "High",
+    "filter": "7x7 tent",
+    "hardwareComparisonSamples": 16,
+    "mainLightShadowResolution": 8192,
+    "cascadeCount": 4,
+    "width": 1920,
+    "height": 1080,
+    "renderScale": 1,
+    "graphicsApi": "Direct3D12",
+    "buildType": "Development Mono x64",
+    "gpuTiming": "Player-side GPU Usage binary log; Editor disconnected",
+    "independentTiming": false,
+    "warmupFrames": 300,
+    "samplesPerRun": 1000,
+    "repeats": 3,
+    "simulationRate": 60,
+    "captureMethod": "CaptureScreenshotAsTexture + EncodeToPNG at end-of-frame, separate Player run",
+    "shaderPath": "C:\\Users\\iynoz\\unity-neural-shading-lab\\UnityProject\\Library\\PackageCache\\com.unity.render-pipelines.universal@fd0c0d56fb49\\ShaderLibrary\\Shadows.hlsl",
+    "shaderSha256": "CAA3E10C26476CD44CBAF7EADCA308A2417BD42CC18A8A4C1466466E2AF9173D",
+    "assemblySha256": "DAB848ED1C17B866F1050C492465ECE265404F11F0FD178AAACD349C037636C1",
+    "pipelineSha256": "D47DB4F60420ECB31C2AB36532966035AE4D982D173A6B895B06D76D5B5EB816",
+    "buildInfo": "unity=6000.3.12f1\npackage_lock_sha256=27c9f8df01c1f7f7e58ed1ec6f62c6a294e9b0ac234aad6183bac072e9ac02c0\nproject_settings_sha256=fca85e581a82b9d84ba7b829ba2676327074dc6514009323b0ce3d268e2ff61f\nquality_settings_sha256=b986b0678e76244edabbc16d3f93ad7f389aa9cecf3382dbcc2e0e296bb366c8\ngraphics_settings_sha256=8dec677cdc0386397c9ce4d63a3f39348c142de7984455e6d6c7e1789b60d24b\nscripting_backend=Mono2x\nscene_dependency_hash=f9466695e038ea309e89f518a7577588\npipeline_dependency_hash=89d118024ad1b7b67baa1c4e88e53ad7\nbuilt_utc=2026-11-07T14:02:56.9353411Z",
+    "views": [
+      "initial",
+      "shadow-stress"
+    ]
+  },
+  "primaryGpuRuns": 6,
+  "requestedFramesPerRun": 1000,
+  "missingPrimaryGpuFrames": 0,
+  "timings": "Benchmarks/ShadowComparison/pcf-timings.csv",
+  "sourceSummarySha256": "a1461181c20ee10cb02973b7f2b521502a9eefdf5f892517b8e0da1771cda931",
+  "frozenPlayer": "Builds/PCF-Baseline-20261107/NeuralShadingLab.exe",
+  "frozenPlayerFileManifest": "Benchmarks/ShadowComparison/pcf-player-files.csv",
+  "frozenPlayerFileManifestSha256": "be370f47db710118ea28b059f59f99f95c1d8d39a3ae7d1f59e46da8911e2df1",
+  "overview": "Benchmarks/Captures/ShadowComparison/PCF/overview.png",
+  "captures": [
+    {
+      "view": "initial",
+      "image": "Benchmarks/Captures/ShadowComparison/PCF/initial.png",
+      "sha256": "867bfd0f4f23a964f591466f9da8d4c1cfba82d12caec5a6ae4a3a988d67f8fb",
+      "source": "Benchmarks/Captures/Candidates/pcf-baseline-20261107/initial/reference/20261107T140434146Z/capture.png",
+      "execution": "Benchmarks/Captures/Candidates/pcf-baseline-20261107/initial/reference/execution-20261107T140425655Z.json",
+      "playerExitCode": 0,
+      "state": {
+        "method": "CaptureScreenshotAsTexture + EncodeToPNG; synchronous end-of-frame readback",
+        "colorSpace": "Linear",
+        "frameCount": 310,
+        "warmupFrames": 300,
+        "width": 1920,
+        "height": 1080,
+        "simulationTime": 5.1499999999999995,
+        "captureDeltaTime": 0.01666666753590107,
+        "fieldOfView": 18.182790756225586,
+        "cameraPosition": {
+          "x": 143.96926879882812,
+          "y": 68.4040298461914,
+          "z": 120.80457305908203
+        },
+        "cameraRotation": {
+          "x": -0.07338687777519226,
+          "y": 0.8925389647483826,
+          "z": -0.157378688454628,
+          "w": -0.4161977171897888
+        }
+      }
+    },
+    {
+      "view": "shadow-stress",
+      "image": "Benchmarks/Captures/ShadowComparison/PCF/shadow-stress.png",
+      "sha256": "fce68d74278a438da25fcbc47cd03d75899f1dee1c0059e5af48383628f6b087",
+      "source": "Benchmarks/Captures/Candidates/pcf-baseline-20261107/shadow-stress/reference/20261107T140441565Z/capture.png",
+      "execution": "Benchmarks/Captures/Candidates/pcf-baseline-20261107/shadow-stress/reference/execution-20261107T140436454Z.json",
+      "playerExitCode": 0,
+      "state": {
+        "method": "CaptureScreenshotAsTexture + EncodeToPNG; synchronous end-of-frame readback",
+        "colorSpace": "Linear",
+        "frameCount": 310,
+        "warmupFrames": 300,
+        "width": 1920,
+        "height": 1080,
+        "simulationTime": 5.1499999999999995,
+        "captureDeltaTime": 0.01666666753590107,
+        "fieldOfView": 50.0,
+        "cameraPosition": {
+          "x": -129.9334716796875,
+          "y": 12.790861129760742,
+          "z": 409.6483459472656
+        },
+        "cameraRotation": {
+          "x": 0.06441755592823029,
+          "y": -0.36949658393859863,
+          "z": 0.02568640559911728,
+          "w": 0.9266406297683716
+        }
+      }
+    }
+  ]
+}

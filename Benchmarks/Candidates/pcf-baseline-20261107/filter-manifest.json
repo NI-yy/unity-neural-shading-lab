@@ -1,0 +1,29 @@
+{
+  "algorithm": "URP PCF",
+  "quality": "High",
+  "filter": "7x7 tent",
+  "hardwareComparisonSamples": 16,
+  "mainLightShadowResolution": 8192,
+  "cascadeCount": 4,
+  "width": 1920,
+  "height": 1080,
+  "renderScale": 1,
+  "graphicsApi": "Direct3D12",
+  "buildType": "Development Mono x64",
+  "gpuTiming": "Player-side GPU Usage binary log; Editor disconnected",
+  "independentTiming": false,
+  "warmupFrames": 300,
+  "samplesPerRun": 1000,
+  "repeats": 3,
+  "simulationRate": 60,
+  "captureMethod": "CaptureScreenshotAsTexture + EncodeToPNG at end-of-frame, separate Player run",
+  "shaderPath": "C:\\Users\\iynoz\\unity-neural-shading-lab\\UnityProject\\Library\\PackageCache\\com.unity.render-pipelines.universal@fd0c0d56fb49\\ShaderLibrary\\Shadows.hlsl",
+  "shaderSha256": "CAA3E10C26476CD44CBAF7EADCA308A2417BD42CC18A8A4C1466466E2AF9173D",
+  "assemblySha256": "DAB848ED1C17B866F1050C492465ECE265404F11F0FD178AAACD349C037636C1",
+  "pipelineSha256": "D47DB4F60420ECB31C2AB36532966035AE4D982D173A6B895B06D76D5B5EB816",
+  "buildInfo": "unity=6000.3.12f1\npackage_lock_sha256=27c9f8df01c1f7f7e58ed1ec6f62c6a294e9b0ac234aad6183bac072e9ac02c0\nproject_settings_sha256=fca85e581a82b9d84ba7b829ba2676327074dc6514009323b0ce3d268e2ff61f\nquality_settings_sha256=b986b0678e76244edabbc16d3f93ad7f389aa9cecf3382dbcc2e0e296bb366c8\ngraphics_settings_sha256=8dec677cdc0386397c9ce4d63a3f39348c142de7984455e6d6c7e1789b60d24b\nscripting_backend=Mono2x\nscene_dependency_hash=f9466695e038ea309e89f518a7577588\npipeline_dependency_hash=89d118024ad1b7b67baa1c4e88e53ad7\nbuilt_utc=2026-11-07T14:02:56.9353411Z",
+  "views": [
+    "initial",
+    "shadow-stress"
+  ]
+}

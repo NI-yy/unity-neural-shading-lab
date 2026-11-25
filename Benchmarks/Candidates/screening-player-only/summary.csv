@@ -1,0 +1,118 @@
+view,variant,run,marker,requested,valid,missing,median_ms,p95_ms,over_3_ms,present_ambiguous,max_qpc_error_ms
+alternate,reference,1,PlayerLoop,1000,1000,0,1.546,1.84205,0,not_recorded,0.008700013160705566
+alternate,reference,1,ExecuteRenderGraph,1000,1000,0,1.481,1.7771,0,not_recorded,0.008700013160705566
+alternate,reference,1,Draw Main Light Shadowmap,1000,1000,0,0.34,0.346,0,not_recorded,0.008700013160705566
+alternate,reference,1,DrawDepthNormalPrepass,1000,1000,0,0.296,0.3,0,not_recorded,0.008700013160705566
+alternate,reference,1,DrawOpaqueObjects,1000,1000,0,0.53,0.823,0,not_recorded,0.008700013160705566
+alternate,reference,1,DrawTransparentObjects,1000,1000,0,0.04,0.043,0,not_recorded,0.008700013160705566
+alternate,reference,1,SSAO,1000,1000,0,0.051,0.052,0,not_recorded,0.008700013160705566
+alternate,reference,1,Bloom,1000,1000,0,0.055999998,0.058,0,not_recorded,0.008700013160705566
+alternate,reference,1,RG_UberPost,1000,1000,0,0.031,0.031,0,not_recorded,0.008700013160705566
+alternate,reference,1,Blit Color Full Screen,1000,1000,0,0.063,0.063,0,not_recorded,0.008700013160705566
+alternate,reference,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.008700013160705566
+alternate,reference,1,Blit Color LUT,1000,1000,0,0.004,0.004,0,not_recorded,0.008700013160705566
+alternate,reference,1,ftm_gpu_ms,1000,973,27,1.527808,1.8251776,0,not_recorded,0.008700013160705566
+initial,hard-shadows,1,PlayerLoop,1000,1000,0,1.561,1.849,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,ExecuteRenderGraph,1000,1000,0,1.468,1.757,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,Draw Main Light Shadowmap,1000,1000,0,0.317,0.322,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,DrawDepthNormalPrepass,1000,1000,0,0.331,0.343,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,DrawOpaqueObjects,1000,1000,0,0.506,0.792,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,DrawTransparentObjects,1000,1000,0,0.038,0.04,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,SSAO,1000,1000,0,0.051,0.052,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,Bloom,1000,1000,0,0.057,0.058,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,RG_UberPost,1000,1000,0,0.032,0.032,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,Blit Color Full Screen,1000,1000,0,0.063,0.0639999956,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,Blit Color LUT,1000,1000,0,0.004,0.005,0,not_recorded,0.0020000338554382324
+initial,hard-shadows,1,ftm_gpu_ms,1000,978,22,1.51552,1.8034176,0,not_recorded,0.0020000338554382324
+initial,low-shadows,1,PlayerLoop,1000,1000,0,1.577,1.86405,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,ExecuteRenderGraph,1000,1000,0,1.484,1.772,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,Draw Main Light Shadowmap,1000,1000,0,0.324,0.329,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,DrawDepthNormalPrepass,1000,1000,0,0.332,0.33804999999999996,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,DrawOpaqueObjects,1000,1000,0,0.513,0.798,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,DrawTransparentObjects,1000,1000,0,0.039,0.041,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,SSAO,1000,1000,0,0.051,0.052,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,Bloom,1000,1000,0,0.057,0.058,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,RG_UberPost,1000,1000,0,0.031,0.032,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,Blit Color Full Screen,1000,1000,0,0.063,0.0639999956,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,Blit Color LUT,1000,1000,0,0.005,0.005,0,not_recorded,0.0025000572204589844
+initial,low-shadows,1,ftm_gpu_ms,1000,973,27,1.53088,1.8190336,0,not_recorded,0.0025000572204589844
+initial,no-fog,1,PlayerLoop,1000,1000,0,1.586,1.8770499999999999,0,not_recorded,0.007899999618530273
+initial,no-fog,1,ExecuteRenderGraph,1000,1000,0,1.494,1.786,0,not_recorded,0.007899999618530273
+initial,no-fog,1,Draw Main Light Shadowmap,1000,1000,0,0.329,0.333,0,not_recorded,0.007899999618530273
+initial,no-fog,1,DrawDepthNormalPrepass,1000,1000,0,0.331,0.3430499991,0,not_recorded,0.007899999618530273
+initial,no-fog,1,DrawOpaqueObjects,1000,1000,0,0.58,0.869,0,not_recorded,0.007899999618530273
+initial,no-fog,1,DrawTransparentObjects,1000,1000,0,0.041,0.044,0,not_recorded,0.007899999618530273
+initial,no-fog,1,SSAO,1000,1000,0,0.048,0.049,0,not_recorded,0.007899999618530273
+initial,no-fog,1,Bloom,1000,1000,0,0.055999998,0.058,0,not_recorded,0.007899999618530273
+initial,no-fog,1,RG_UberPost,1000,1000,0,0.0339999981,0.0339999981,0,not_recorded,0.007899999618530273
+initial,no-fog,1,Blit Color Full Screen,1000,0,1000,,,0,not_recorded,0.007899999618530273
+initial,no-fog,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.007899999618530273
+initial,no-fog,1,Blit Color LUT,1000,1000,0,0.005,0.005,0,not_recorded,0.007899999618530273
+initial,no-fog,1,ftm_gpu_ms,1000,979,21,1.539072,1.828864,0,not_recorded,0.007899999618530273
+initial,no-post,1,PlayerLoop,1000,1000,0,1.522,1.816,0,not_recorded,0.003300011157989502
+initial,no-post,1,ExecuteRenderGraph,1000,1000,0,1.458,1.751,0,not_recorded,0.003300011157989502
+initial,no-post,1,Draw Main Light Shadowmap,1000,1000,0,0.315,0.318,0,not_recorded,0.003300011157989502
+initial,no-post,1,DrawDepthNormalPrepass,1000,1000,0,0.327999979,0.332000017,0,not_recorded,0.003300011157989502
+initial,no-post,1,DrawOpaqueObjects,1000,1000,0,0.581,0.872,0,not_recorded,0.003300011157989502
+initial,no-post,1,DrawTransparentObjects,1000,1000,0,0.041,0.044,0,not_recorded,0.003300011157989502
+initial,no-post,1,SSAO,1000,1000,0,0.048,0.05,0,not_recorded,0.003300011157989502
+initial,no-post,1,Bloom,1000,0,1000,,,0,not_recorded,0.003300011157989502
+initial,no-post,1,RG_UberPost,1000,0,1000,,,0,not_recorded,0.003300011157989502
+initial,no-post,1,Blit Color Full Screen,1000,1000,0,0.063,0.063,0,not_recorded,0.003300011157989502
+initial,no-post,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.003300011157989502
+initial,no-post,1,Blit Color LUT,1000,0,1000,,,0,not_recorded,0.003300011157989502
+initial,no-post,1,ftm_gpu_ms,1000,979,21,1.503232,1.79712,0,not_recorded,0.003300011157989502
+initial,no-ssao,1,PlayerLoop,1000,1000,0,1.412,1.7191,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,ExecuteRenderGraph,1000,1000,0,1.319,1.626,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,Draw Main Light Shadowmap,1000,1000,0,0.315,0.318,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,DrawDepthNormalPrepass,1000,0,1000,,,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,DrawOpaqueObjects,1000,1000,0,0.572,0.874,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,DrawTransparentObjects,1000,1000,0,0.04,0.043,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,SSAO,1000,0,1000,,,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,Bloom,1000,1000,0,0.057,0.058,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,RG_UberPost,1000,1000,0,0.031,0.032,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,Blit Color Full Screen,1000,1000,0,0.066,0.067,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,CopyDepth,1000,1000,0,0.013,0.0139999995,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,Blit Color LUT,1000,1000,0,0.005,0.005,0,not_recorded,0.001900017261505127
+initial,no-ssao,1,ftm_gpu_ms,1000,991,9,1.363968,1.672192,0,not_recorded,0.001900017261505127
+initial,reference,1,PlayerLoop,1000,1000,0,1.615,1.912,0,not_recorded,0.002400040626525879
+initial,reference,1,ExecuteRenderGraph,1000,1000,0,1.551,1.8470499999999999,0,not_recorded,0.002400040626525879
+initial,reference,1,Draw Main Light Shadowmap,1000,1000,0,0.32,0.324,0,not_recorded,0.002400040626525879
+initial,reference,1,DrawDepthNormalPrepass,1000,1000,0,0.331,0.335,0,not_recorded,0.002400040626525879
+initial,reference,1,DrawOpaqueObjects,1000,1000,0,0.585,0.88,0,not_recorded,0.002400040626525879
+initial,reference,1,DrawTransparentObjects,1000,1000,0,0.041,0.044,0,not_recorded,0.002400040626525879
+initial,reference,1,SSAO,1000,1000,0,0.049,0.05,0,not_recorded,0.002400040626525879
+initial,reference,1,Bloom,1000,1000,0,0.055999998,0.058,0,not_recorded,0.002400040626525879
+initial,reference,1,RG_UberPost,1000,1000,0,0.031,0.032,0,not_recorded,0.002400040626525879
+initial,reference,1,Blit Color Full Screen,1000,1000,0,0.063,0.0639999956,0,not_recorded,0.002400040626525879
+initial,reference,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.002400040626525879
+initial,reference,1,Blit Color LUT,1000,1000,0,0.004,0.005,0,not_recorded,0.002400040626525879
+initial,reference,1,ftm_gpu_ms,1000,973,27,1.598464,1.895424,0,not_recorded,0.002400040626525879
+lake,reference,1,PlayerLoop,1000,1000,0,0.559,1.1231,0,not_recorded,0.001900017261505127
+lake,reference,1,ExecuteRenderGraph,1000,1000,0,0.468,1.03205,0,not_recorded,0.001900017261505127
+lake,reference,1,Draw Main Light Shadowmap,1000,1000,0,0.0449999981,0.06104999999999995,0,not_recorded,0.001900017261505127
+lake,reference,1,DrawDepthNormalPrepass,1000,0,1000,,,0,not_recorded,0.001900017261505127
+lake,reference,1,DrawOpaqueObjects,1000,0,1000,,,0,not_recorded,0.001900017261505127
+lake,reference,1,DrawTransparentObjects,1000,0,1000,,,0,not_recorded,0.001900017261505127
+lake,reference,1,SSAO,1000,1000,0,0.044,0.058,0,not_recorded,0.001900017261505127
+lake,reference,1,Bloom,1000,1000,0,0.083,0.100999996,0,not_recorded,0.001900017261505127
+lake,reference,1,RG_UberPost,1000,1000,0,0.048,0.06119999999999982,0,not_recorded,0.001900017261505127
+lake,reference,1,Blit Color Full Screen,1000,1000,0,0.114,0.16304999999999997,0,not_recorded,0.001900017261505127
+lake,reference,1,CopyDepth,1000,1000,0,0.024,0.03,0,not_recorded,0.001900017261505127
+lake,reference,1,Blit Color LUT,1000,1000,0,0.006,0.008,0,not_recorded,0.001900017261505127
+lake,reference,1,ftm_gpu_ms,1000,927,73,0.484352,1.0496,0,not_recorded,0.001900017261505127
+waterfall,reference,1,PlayerLoop,1000,1000,0,2.263,2.5740499999999997,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,ExecuteRenderGraph,1000,1000,0,2.172,2.4770499999999998,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,Draw Main Light Shadowmap,1000,1000,0,1.257,1.5451,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,DrawDepthNormalPrepass,1000,1000,0,0.207999989,0.21,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,DrawOpaqueObjects,1000,1000,0,0.359999985,0.64505,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,DrawTransparentObjects,1000,1000,0,0.039,0.043,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,SSAO,1000,1000,0,0.084,0.086,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,Bloom,1000,1000,0,0.055999998,0.058,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,RG_UberPost,1000,1000,0,0.031,0.032,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,Blit Color Full Screen,1000,1000,0,0.063,0.063,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,CopyDepth,1000,1000,0,0.015,0.016,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,Blit Color LUT,1000,1000,0,0.004,0.005,0,not_recorded,0.0034000277519226074
+waterfall,reference,1,ftm_gpu_ms,1000,926,74,2.244608,2.556928,0,not_recorded,0.0034000277519226074

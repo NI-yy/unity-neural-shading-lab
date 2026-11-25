@@ -1,0 +1,29 @@
+view,marker,algorithm,median_of_run_medians_ms,min_run_median_ms,max_run_median_ms,median_of_run_p95_ms,valid,missing
+initial,PlayerLoop,PCF,1.622,1.613,1.624,1.6811999999999934,3000,0
+initial,PlayerLoop,PCSS,1.893,1.837,1.922,2.038399999999998,2999,1
+initial,Draw Main Light Shadowmap,PCF,0.325,0.318,0.326,0.33,3000,0
+initial,Draw Main Light Shadowmap,PCSS,0.317,0.308,0.325,0.321,2999,1
+initial,DrawOpaqueObjects,PCF,0.584,0.583,0.586,0.59105,3000,0
+initial,DrawOpaqueObjects,PCSS,0.859,0.793,0.868,0.868,2999,1
+initial,DrawTransparentObjects,PCF,0.041,0.041,0.041,0.044,3000,0
+initial,DrawTransparentObjects,PCSS,0.055,0.055,0.055999998,0.058,2999,1
+initial,DrawDepthNormalPrepass,PCF,0.332000017,0.331,0.334,0.339000016,3000,0
+initial,DrawDepthNormalPrepass,PCSS,0.331,0.33,0.334,0.339000016,2999,1
+initial,SSAO,PCF,0.051,0.048,0.051,0.052,3000,0
+initial,SSAO,PCSS,0.051,0.051,0.051,0.052,2999,1
+initial,ftm_gpu_ms,PCF,1.605632,1.596416,1.606656,1.6466432,2994,6
+initial,ftm_gpu_ms,PCSS,1.874944,1.818624,1.90464,1.9457023999999972,2739,261
+shadow-stress,PlayerLoop,PCF,2.259,2.213,2.259,2.4422,3000,0
+shadow-stress,PlayerLoop,PCSS,2.394,2.375,2.4024999400000002,2.73005,3000,0
+shadow-stress,Draw Main Light Shadowmap,PCF,1.25,1.221,1.256,1.27405,3000,0
+shadow-stress,Draw Main Light Shadowmap,PCSS,1.245,1.238,1.258,1.45705,3000,0
+shadow-stress,DrawOpaqueObjects,PCF,0.359,0.348,0.364,0.364,3000,0
+shadow-stress,DrawOpaqueObjects,PCSS,0.5,0.46,0.505,0.50905,3000,0
+shadow-stress,DrawTransparentObjects,PCF,0.039,0.039,0.039,0.043,3000,0
+shadow-stress,DrawTransparentObjects,PCSS,0.049,0.049,0.049,0.052,3000,0
+shadow-stress,DrawDepthNormalPrepass,PCF,0.206,0.205,0.206999987,0.208999991,3000,0
+shadow-stress,DrawDepthNormalPrepass,PCSS,0.206999987,0.205,0.206999987,0.21,3000,0
+shadow-stress,SSAO,PCF,0.084,0.084,0.084,0.087,3000,0
+shadow-stress,SSAO,PCSS,0.084,0.077,0.084,0.087,3000,0
+shadow-stress,ftm_gpu_ms,PCF,2.240512,2.194432,2.240512,2.42176,2959,41
+shadow-stress,ftm_gpu_ms,PCSS,2.374656,2.356224,2.384896,2.7058176,2500,500

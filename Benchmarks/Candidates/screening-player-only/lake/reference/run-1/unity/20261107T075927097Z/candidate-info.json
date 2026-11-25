@@ -1,0 +1,21 @@
+{
+    "variant": "reference",
+    "view": "lake",
+    "sunShadows": "Soft",
+    "sunSoftQuality": "UsePipelineSettings",
+    "selectedObject": "Water",
+    "disabledRenderers": 0,
+    "disabledFeatures": [],
+    "cameraPosition": {
+        "x": -14823.0234375,
+        "y": 2120.77734375,
+        "z": -4831.16259765625
+    },
+    "cameraRotation": {
+        "x": 0.05243204906582832,
+        "y": 0.5843874216079712,
+        "z": -0.03787972033023834,
+        "w": 0.8088927268981934
+    },
+    "fieldOfView": 50.0
+}

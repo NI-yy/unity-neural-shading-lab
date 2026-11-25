@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-07T07:58:40.3771831Z",
+  "cases": [
+    "initial/no-fog",
+    "initial/no-ssao",
+    "initial/no-post",
+    "alternate/reference",
+    "lake/reference",
+    "waterfall/reference"
+  ],
+  "repeats": 1,
+  "independentTiming": false,
+  "revision": "83f688eea72d56fed46ef45d996f4f4ec76b3268",
+  "changes": [
+    " M README.md",
+    "?? .gitignore",
+    "?? Benchmarks/",
+    "?? Docs/",
+    "?? Tools/",
+    "?? UnityProject/"
+  ]
+}
