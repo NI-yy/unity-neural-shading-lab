@@ -1,0 +1,21 @@
+{
+    "variant": "reference",
+    "view": "waterfall",
+    "sunShadows": "Soft",
+    "sunSoftQuality": "UsePipelineSettings",
+    "selectedObject": "Waterfall_Mesh",
+    "disabledRenderers": 0,
+    "disabledFeatures": [],
+    "cameraPosition": {
+        "x": -129.9334716796875,
+        "y": 12.790861129760743,
+        "z": 409.6483459472656
+    },
+    "cameraRotation": {
+        "x": 0.06441754847764969,
+        "y": -0.36949658393859866,
+        "z": 0.02568640373647213,
+        "w": 0.9266406297683716
+    },
+    "fieldOfView": 50.0
+}

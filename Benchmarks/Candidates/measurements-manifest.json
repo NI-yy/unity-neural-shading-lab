@@ -1,0 +1,23 @@
+{
+  "primary_source": "Player-side Unity GPU Usage binary logging, Editor disconnected",
+  "independent_timing_this_phase": false,
+  "runs": 15,
+  "requested_per_run": 1000,
+  "complete_gpu_runs": 15,
+  "missing_gpu_frames": 0,
+  "build_info": "unity=6000.3.12f1\npackage_lock_sha256=27c9f8df01c1f7f7e58ed1ec6f62c6a294e9b0ac234aad6183bac072e9ac02c0\nproject_settings_sha256=fca85e581a82b9d84ba7b829ba2676327074dc6514009323b0ce3d268e2ff61f\nquality_settings_sha256=b986b0678e76244edabbc16d3f93ad7f389aa9cecf3382dbcc2e0e296bb366c8\ngraphics_settings_sha256=8dec677cdc0386397c9ce4d63a3f39348c142de7984455e6d6c7e1789b60d24b\nscripting_backend=Mono2x\nscene_dependency_hash=f9466695e038ea309e89f518a7577588\npipeline_dependency_hash=89d118024ad1b7b67baa1c4e88e53ad7\nbuilt_utc=2026-11-07T08:07:43.7236418Z",
+  "source_sha256": {
+    "UnityProject/Assets/NeuralShadingLab/Runtime/BaselineRunner.cs": "be6e3493d71d653adc7f6cb10ae92e1f30afe90d5399ff1896347de813edddf2",
+    "UnityProject/Assets/NeuralShadingLab/Runtime/CandidateProbe.cs": "05a5fe8c9696c6c688b295ab0c2f7eecf9c4302597f96459647de754f24bfc27",
+    "UnityProject/Assets/NeuralShadingLab/Editor/CandidateAudit.cs": "993f1e7ee4f3cfd4b6e83244f87665ecdccaac488c5c7c0c7b59b4ed3f35b2d5",
+    "UnityProject/Assets/NeuralShadingLab/Editor/GpuRepeatExport.cs": "643bfc95e8722554d70704f041da836d8118d474ae0997923049200a4580681a",
+    "Tools/Run-Candidates.ps1": "123ae65895204f8c2413c06853503bcce78b0dd52e48faaee953a607f622f665",
+    "Tools/Summarize-Candidates.py": "09494ba32aa844d6f182c23d970aa1e1b020087a2539342ecfc6754f16c73158",
+    "Tools/Record-Candidate-Artifacts.py": "e52936980ad5ec2002a606be2b4a21a0e463fc84315fa29bc8445686a91ee559",
+    "UnityProject/Assets/NeuralShadingLab/LocalSample/BaselineDesktop.asset": "d47db4f60420ecb31c2ab36532966035ae4d982d173a6b895b06d76d5b5eb816",
+    "UnityProject/Assets/NeuralShadingLab/LocalSample/BaselineDesktopRenderer.asset": "9f48ff62c4c742e0605a6a6c013cafe1ecf46dd3fd4335a5dffb03ffb94d8adf",
+    "UnityProject/Assets/NeuralShadingLab/Resources/NeuralLabBaseline.asset": "86fc4d9683e8296bd8b173d2b7198811e46f964f0747643d0d625eca97e9e8ae"
+  },
+  "capture_files": 7,
+  "capture_failed_process_exits": 4
+}

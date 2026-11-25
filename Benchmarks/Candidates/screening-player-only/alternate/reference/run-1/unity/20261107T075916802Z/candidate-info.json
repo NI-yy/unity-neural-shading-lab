@@ -1,0 +1,21 @@
+{
+    "variant": "reference",
+    "view": "alternate",
+    "sunShadows": "Soft",
+    "sunSoftQuality": "UsePipelineSettings",
+    "selectedObject": "",
+    "disabledRenderers": 0,
+    "disabledFeatures": [],
+    "cameraPosition": {
+        "x": 143.96926879882813,
+        "y": 68.4040298461914,
+        "z": 120.80457305908203
+    },
+    "cameraRotation": {
+        "x": -0.08285773545503617,
+        "y": 0.8654659390449524,
+        "z": -0.15260498225688935,
+        "w": -0.4699096381664276
+    },
+    "fieldOfView": 18.182790756225587
+}

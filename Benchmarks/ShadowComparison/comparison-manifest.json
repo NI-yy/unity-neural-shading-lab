@@ -1,0 +1,234 @@
+{
+  "suffix": "20261107",
+  "builds": {
+    "PCF": "unity=6000.3.12f1\npackage_lock_sha256=27c9f8df01c1f7f7e58ed1ec6f62c6a294e9b0ac234aad6183bac072e9ac02c0\nproject_settings_sha256=fca85e581a82b9d84ba7b829ba2676327074dc6514009323b0ce3d268e2ff61f\nquality_settings_sha256=b986b0678e76244edabbc16d3f93ad7f389aa9cecf3382dbcc2e0e296bb366c8\ngraphics_settings_sha256=8dec677cdc0386397c9ce4d63a3f39348c142de7984455e6d6c7e1789b60d24b\nscripting_backend=Mono2x\nscene_dependency_hash=f9466695e038ea309e89f518a7577588\npipeline_dependency_hash=89d118024ad1b7b67baa1c4e88e53ad7\nbuilt_utc=2026-11-07T14:02:56.9353411Z",
+    "PCSS": "unity=6000.3.12f1\npackage_lock_sha256=6295914d2e0fb06f18c5f419e60029a6a976cfa6f1c0f7543f79bcd669a3a953\nproject_settings_sha256=fca85e581a82b9d84ba7b829ba2676327074dc6514009323b0ce3d268e2ff61f\nquality_settings_sha256=b986b0678e76244edabbc16d3f93ad7f389aa9cecf3382dbcc2e0e296bb366c8\ngraphics_settings_sha256=8dec677cdc0386397c9ce4d63a3f39348c142de7984455e6d6c7e1789b60d24b\nscripting_backend=Mono2x\nscene_dependency_hash=f9466695e038ea309e89f518a7577588\npipeline_dependency_hash=89d118024ad1b7b67baa1c4e88e53ad7\nmain_light_shadow_filter=PCSS\nmain_light_shadow_filter_source_sha256=a78852a9cfe7efffb243eb3f7bea7869a6ca03378dd8eb1d88e963cc1822bd0a\nbuilt_utc=2026-11-07T14:27:14.6439759Z"
+  },
+  "playerHashes": {
+    "PCF": {
+      "NeuralShadingLab.exe": "2a0a53cec3d7c7fbd57b3d5aca7f8c7cc4e4cedea28e638a1da349a3c891931b",
+      "NeuralShadingLab_Data/Managed/Assembly-CSharp.dll": "dab848ed1c17b866f1050c492465ece265404f11f0fd178aaacd349c037636c1",
+      "NeuralShadingLab_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll": "ec177c8267d935d3e57eb82aeb245f611990e116c36f3feb46c2642c329efc90"
+    },
+    "PCSS": {
+      "NeuralShadingLab.exe": "2a0a53cec3d7c7fbd57b3d5aca7f8c7cc4e4cedea28e638a1da349a3c891931b",
+      "NeuralShadingLab_Data/Managed/Assembly-CSharp.dll": "f9632d6a2c822b04ae6d8543e2ff43af31692d877b8128e77586911dc75542c8",
+      "NeuralShadingLab_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll": "e4ca2e428256e5c62e2698f4679ca0f25eb9d8dd975e6066ff6f65b04d1bb958"
+    }
+  },
+  "pcssSourceSha256": "a78852a9cfe7efffb243eb3f7bea7869a6ca03378dd8eb1d88e963cc1822bd0a",
+  "captures": [
+    {
+      "algorithm": "PCF",
+      "view": "initial",
+      "state": {
+        "method": "CaptureScreenshotAsTexture + EncodeToPNG; synchronous end-of-frame readback",
+        "colorSpace": "Linear",
+        "frameCount": 310,
+        "warmupFrames": 300,
+        "width": 1920,
+        "height": 1080,
+        "simulationTime": 5.1499999999999995,
+        "captureDeltaTime": 0.01666666753590107,
+        "fieldOfView": 18.182790756225586,
+        "cameraPosition": {
+          "x": 143.96926879882812,
+          "y": 68.4040298461914,
+          "z": 120.80457305908203
+        },
+        "cameraRotation": {
+          "x": -0.07338687777519226,
+          "y": 0.8925389647483826,
+          "z": -0.157378688454628,
+          "w": -0.4161977171897888
+        }
+      },
+      "sha256": "37aaa26f7113ad6b23361e8b7407052c2fa429b375671008e49d19817d7fe8e6",
+      "image": "Benchmarks/Captures/ShadowComparison/Comparison/PCF/initial.png",
+      "source": "Benchmarks/Captures/Candidates/pcf-comparison-20261107/initial/reference/20261107T144308824Z/capture.png",
+      "execution": "Benchmarks/Captures/Candidates/pcf-comparison-20261107/initial/reference/execution-20261107T144303779Z.json"
+    },
+    {
+      "algorithm": "PCF",
+      "view": "shadow-stress",
+      "state": {
+        "method": "CaptureScreenshotAsTexture + EncodeToPNG; synchronous end-of-frame readback",
+        "colorSpace": "Linear",
+        "frameCount": 310,
+        "warmupFrames": 300,
+        "width": 1920,
+        "height": 1080,
+        "simulationTime": 5.1499999999999995,
+        "captureDeltaTime": 0.01666666753590107,
+        "fieldOfView": 50.0,
+        "cameraPosition": {
+          "x": -129.9334716796875,
+          "y": 12.790861129760742,
+          "z": 409.6483459472656
+        },
+        "cameraRotation": {
+          "x": 0.06441755592823029,
+          "y": -0.36949658393859863,
+          "z": 0.02568640559911728,
+          "w": 0.9266406297683716
+        }
+      },
+      "sha256": "fce68d74278a438da25fcbc47cd03d75899f1dee1c0059e5af48383628f6b087",
+      "image": "Benchmarks/Captures/ShadowComparison/Comparison/PCF/shadow-stress.png",
+      "source": "Benchmarks/Captures/Candidates/pcf-comparison-20261107/shadow-stress/reference/20261107T144316124Z/capture.png",
+      "execution": "Benchmarks/Captures/Candidates/pcf-comparison-20261107/shadow-stress/reference/execution-20261107T144311045Z.json"
+    },
+    {
+      "algorithm": "PCSS",
+      "view": "initial",
+      "state": {
+        "method": "CaptureScreenshotAsTexture + EncodeToPNG; synchronous end-of-frame readback",
+        "colorSpace": "Linear",
+        "frameCount": 310,
+        "warmupFrames": 300,
+        "width": 1920,
+        "height": 1080,
+        "simulationTime": 5.1499999999999995,
+        "captureDeltaTime": 0.01666666753590107,
+        "fieldOfView": 18.182790756225586,
+        "cameraPosition": {
+          "x": 143.96926879882812,
+          "y": 68.4040298461914,
+          "z": 120.80457305908203
+        },
+        "cameraRotation": {
+          "x": -0.07338687777519226,
+          "y": 0.8925389647483826,
+          "z": -0.157378688454628,
+          "w": -0.4161977171897888
+        }
+      },
+      "sha256": "afa9b2c5b96941112dc6fda5d5480a986a8f0368479582e9953aa665e63c916d",
+      "image": "Benchmarks/Captures/ShadowComparison/Comparison/PCSS/initial.png",
+      "source": "Benchmarks/Captures/Candidates/pcss-comparison-20261107/initial/reference/20261107T144018725Z/capture.png",
+      "execution": "Benchmarks/Captures/Candidates/pcss-comparison-20261107/initial/reference/execution-20261107T144012890Z.json"
+    },
+    {
+      "algorithm": "PCSS",
+      "view": "shadow-stress",
+      "state": {
+        "method": "CaptureScreenshotAsTexture + EncodeToPNG; synchronous end-of-frame readback",
+        "colorSpace": "Linear",
+        "frameCount": 310,
+        "warmupFrames": 300,
+        "width": 1920,
+        "height": 1080,
+        "simulationTime": 5.1499999999999995,
+        "captureDeltaTime": 0.01666666753590107,
+        "fieldOfView": 50.0,
+        "cameraPosition": {
+          "x": -129.9334716796875,
+          "y": 12.790861129760742,
+          "z": 409.6483459472656
+        },
+        "cameraRotation": {
+          "x": 0.06441755592823029,
+          "y": -0.36949658393859863,
+          "z": 0.02568640559911728,
+          "w": 0.9266406297683716
+        }
+      },
+      "sha256": "a1e31c5bb25f8cce90beb96b33167f12c8cb82726785b240069e03c3b0eb2117",
+      "image": "Benchmarks/Captures/ShadowComparison/Comparison/PCSS/shadow-stress.png",
+      "source": "Benchmarks/Captures/Candidates/pcss-comparison-20261107/shadow-stress/reference/20261107T144030074Z/capture.png",
+      "execution": "Benchmarks/Captures/Candidates/pcss-comparison-20261107/shadow-stress/reference/execution-20261107T144025042Z.json"
+    }
+  ],
+  "runOrder": [
+    {
+      "algorithm": "PCF",
+      "utc": "2026-11-07T14:40:52.5328182Z",
+      "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\PCF-Baseline-20261107\\NeuralShadingLab.exe",
+      "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+      "cases": [
+        "initial/reference",
+        "shadow-stress/reference"
+      ],
+      "runIndex": 1,
+      "repeats": 1,
+      "independentTiming": false
+    },
+    {
+      "algorithm": "PCSS",
+      "utc": "2026-11-07T14:41:14.8199334Z",
+      "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\WindowsDevelopment\\NeuralShadingLab.exe",
+      "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+      "cases": [
+        "initial/reference",
+        "shadow-stress/reference"
+      ],
+      "runIndex": 1,
+      "repeats": 1,
+      "independentTiming": false
+    },
+    {
+      "algorithm": "PCSS",
+      "utc": "2026-11-07T14:41:37.1788668Z",
+      "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\WindowsDevelopment\\NeuralShadingLab.exe",
+      "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+      "cases": [
+        "initial/reference",
+        "shadow-stress/reference"
+      ],
+      "runIndex": 2,
+      "repeats": 1,
+      "independentTiming": false
+    },
+    {
+      "algorithm": "PCF",
+      "utc": "2026-11-07T14:41:58.9394319Z",
+      "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\PCF-Baseline-20261107\\NeuralShadingLab.exe",
+      "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+      "cases": [
+        "initial/reference",
+        "shadow-stress/reference"
+      ],
+      "runIndex": 2,
+      "repeats": 1,
+      "independentTiming": false
+    },
+    {
+      "algorithm": "PCF",
+      "utc": "2026-11-07T14:42:20.3420776Z",
+      "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\PCF-Baseline-20261107\\NeuralShadingLab.exe",
+      "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+      "cases": [
+        "initial/reference",
+        "shadow-stress/reference"
+      ],
+      "runIndex": 3,
+      "repeats": 1,
+      "independentTiming": false
+    },
+    {
+      "algorithm": "PCSS",
+      "utc": "2026-11-07T14:42:41.9851167Z",
+      "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\WindowsDevelopment\\NeuralShadingLab.exe",
+      "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+      "cases": [
+        "initial/reference",
+        "shadow-stress/reference"
+      ],
+      "runIndex": 3,
+      "repeats": 1,
+      "independentTiming": false
+    }
+  ],
+  "timing": "Player-side GPU Usage binary log; Editor disconnected; instrumented Development; no PresentMon",
+  "aggregation": "median of three per-run medians; per-run p95 preserved separately",
+  "missingPolicy": "Nonpositive GPU times remain missing. No interpolation or substitution between sources. Profiler matches exceeding 0.05 ms or 1% of neighbour gap are rejected and retained as missing.",
+  "pcss": {
+    "angularDiameterDegrees": 0.53,
+    "blockerSamples": 32,
+    "filterComparisonSamples": 32,
+    "maxSearchDistanceMeters": 50,
+    "maxSearchRadiusTexels": 32,
+    "maxFilterRadiusTexels": 32,
+    "blockerBiasMeters": 0.01
+  }
+}

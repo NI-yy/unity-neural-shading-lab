@@ -1,0 +1,4 @@
+
+# Preserve byte-level hashes recorded for the measured PCSS build.
+UnityProject/Packages/com.unity.render-pipelines.universal/ShaderLibrary/NeuralLabPCSS.hlsl text eol=lf
+UnityProject/Packages/packages-lock.json text eol=lf

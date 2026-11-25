@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-07T14:05:51.5289788Z",
+  "cases": [
+    "shadow-stress/reference"
+  ],
+  "repeats": 1,
+  "independentTiming": false,
+  "revision": "83f688eea72d56fed46ef45d996f4f4ec76b3268",
+  "changes": [
+    " M README.md",
+    "?? .gitignore",
+    "?? Benchmarks/",
+    "?? Docs/",
+    "?? Tools/",
+    "?? UnityProject/"
+  ]
+}

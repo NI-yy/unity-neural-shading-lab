@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-07T14:42:20.2733427Z",
+  "player": "C:\\Users\\iynoz\\unity-neural-shading-lab\\Builds\\PCF-Baseline-20261107\\NeuralShadingLab.exe",
+  "playerSha256": "2A0A53CEC3D7C7FBD57B3D5ACA7F8C7CC4E4CEDEA28E638A1DA349A3C891931B",
+  "cases": [
+    "initial/reference",
+    "shadow-stress/reference"
+  ],
+  "repeats": 1,
+  "independentTiming": false,
+  "revision": "83f688eea72d56fed46ef45d996f4f4ec76b3268",
+  "changes": [
+    " M README.md",
+    "?? .gitignore",
+    "?? Benchmarks/",
+    "?? Docs/",
+    "?? Tools/",
+    "?? UnityProject/"
+  ]
+}

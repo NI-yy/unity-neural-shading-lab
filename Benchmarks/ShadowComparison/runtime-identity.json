@@ -1,0 +1,14 @@
+{
+  "identicalTypeFieldMethodIL": true,
+  "scope": "Assembly-CSharp type/field/method signatures and instruction text, including nested types; excludes MVID and debug metadata",
+  "PCF": {
+    "mvid": "77aff6be-c1d0-4816-b8f1-8f4d4ead6550",
+    "ilSha256": "E2209137041CE1E2F4245788C302C24B7C6E447E25DB5E4C7944762962E15A09",
+    "assemblySha256": "DAB848ED1C17B866F1050C492465ECE265404F11F0FD178AAACD349C037636C1"
+  },
+  "PCSS": {
+    "mvid": "006f674b-774a-48c8-ace9-4eb12922b406",
+    "ilSha256": "E2209137041CE1E2F4245788C302C24B7C6E447E25DB5E4C7944762962E15A09",
+    "assemblySha256": "F9632D6A2C822B04AE6D8543E2FF43AF31692D877B8128E77586911DC75542C8"
+  }
+}

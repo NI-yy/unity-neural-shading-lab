@@ -1,0 +1,16 @@
+{"utc":"2026-11-07T08:08:28.7872780Z","cases":["initial/reference"],"runIndex":1,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:08:40.0078340Z","cases":["initial/no-ssao"],"runIndex":1,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:08:50.6292088Z","cases":["shadow-stress/reference"],"runIndex":1,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:09:02.4845747Z","cases":["shadow-stress/hard-shadows"],"runIndex":1,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:09:14.2651071Z","cases":["shadow-stress/no-shadows"],"runIndex":1,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:09:25.5774276Z","cases":["shadow-stress/no-shadows"],"runIndex":2,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:09:35.0565843Z","cases":["shadow-stress/hard-shadows"],"runIndex":2,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:09:46.4498167Z","cases":["shadow-stress/reference"],"runIndex":2,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:09:57.9667965Z","cases":["initial/no-ssao"],"runIndex":2,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:11:37.3764099Z","cases":["initial/reference"],"runIndex":2,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:11:48.3610825Z","cases":["initial/no-ssao"],"runIndex":2,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:11:59.0410706Z","cases":["initial/reference"],"runIndex":3,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:12:09.8149896Z","cases":["initial/no-ssao"],"runIndex":3,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:12:20.3646787Z","cases":["shadow-stress/reference"],"runIndex":3,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:12:32.0657385Z","cases":["shadow-stress/hard-shadows"],"runIndex":3,"repeats":1,"independentTiming":false}
+{"utc":"2026-11-07T08:12:45.0594529Z","cases":["shadow-stress/no-shadows"],"runIndex":3,"repeats":1,"independentTiming":false}

@@ -10,6 +10,10 @@ Issue #2では同じDevelopmentビルドのProfilerなし対照測定と、メ�
 
 Issue #3ではPresentMonのETW GPU BusyでDX12 Development Playerを独立計測し、影4096を再評価しました。結果と残る不確実性は[DX12独立計測と影設定の再評価](Docs/issue-3-dx12-independent.md)に記録しています。ニューラル実装は未着手です。
 
+材質以外も含めて高負荷処理を探索し、Editor非接続の5条件×3回でGPU Usageを各1000フレーム取得しました。追加視点の影マップ生成が約1.26 ms、全体の約55%を占めるため、影の可視率近似を第一候補にしています。SSAOと法線生成も切り分けました。[高負荷処理の探索](Docs/heavy-process-candidates.md)に生系列、比較画像の所在、条件と制約を記録しています。
+
+PCFとPCSSを比較するため、[PCFの現状ベースライン](Docs/pcf-baseline.md)を別に保存しました。2視点×3回のGPU時間、原寸スクリーンショット、撮影時刻・カメラ、PCF Playerのスナップショットを揃えています。現在のメイン方向光は[PCSSへ変換](Docs/pcss-implementation.md)済みで、[同条件での反復計測と画像比較](Docs/pcf-pcss-comparison.md)を保存しました。PCSSは全体GPU時間が約6〜17%増え、影マップ生成コストはほぼ同じです。
+
 ## 最初の実験
 
 1. Unity 6の専用プロジェクトを `UnityProject/` に作成する。

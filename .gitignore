@@ -25,7 +25,12 @@ LocalData/
 Training/.venv/
 Training/__pycache__/
 Training/checkpoints/
-Benchmarks/Captures/
+# Keep curated PCF/PCSS comparison PNGs; other captures remain local.
+/Benchmarks/Captures/*
+!/Benchmarks/Captures/ShadowComparison/
+/Benchmarks/Captures/ShadowComparison/*
+!/Benchmarks/Captures/ShadowComparison/PCF/
+!/Benchmarks/Captures/ShadowComparison/Comparison/
 Benchmarks/Raw/
 *.unitypackage
 
@@ -36,3 +41,6 @@ Benchmarks/Raw/
 /UnityProject/Assets/NeuralShadingLab/LocalSample/
 /UnityProject/Assets/NeuralShadingLab/LocalSample.meta
 /UnityProject/Assets/NeuralShadingLab/Resources/NeuralLabBuildInfo.txt*
+
+# Large raw Unity Profiler captures remain on the measurement machine.
+/UnityProject/ProfilerCaptures/
